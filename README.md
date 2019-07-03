@@ -5,11 +5,11 @@ AutoLLR is a live Linux evidence collection script that gathers key artifacts im
 
 Results are divided into three (3) categories: 
     1. System artifacts
-        General system information including 
-        Dumps all process ENVIRON data
-        Collects bash histories
-        SSH info
-        and more 
+        - General system information including 
+        - Dumps all process ENVIRON data
+        - Collects bash histories
+        - SSH info
+        - and more 
     2. Network artifacts 
         Different network connection pulls
         Artifacts that record useful network information 
