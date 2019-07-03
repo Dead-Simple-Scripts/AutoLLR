@@ -10,22 +10,24 @@ Results are divided into three (3) categories:
 - Collects bash histories
 - SSH info
 - and more 
-    2. Network artifacts 
-        Different network connection pulls
-        Artifacts that record useful network information 
-    3. Triage searches
-        Hidden files, directories, executables 
-        Targeted directory checks
-        Deleted binaries still running 
-        Binaries running from temporary directories 
-        Executables in interesting directories
-        Assorted data spoliation searches 
-        Assorted persistence searches 
+    
+2. Network artifacts 
+- Different network connection pulls
+ - Artifacts that record useful network information 
+    
+3. Triage searches
+- Hidden files, directories, executables 
+- Targeted directory checks
+- Deleted binaries still running 
+- Binaries running from temporary directories 
+- Executables in interesting directories
+- Assorted data spoliation searches 
+- Assorted persistence searches 
 
 Findings are hashed (MD5 SHA256) and archived upon completion.
 
 
 Acknowledgments:
-    Developers of Bambiraptor. Some of the code was structured after bambiraptor. 
-    Sandfly Security. Some of the triage searches follow the Sandfly fast triage methodology 
+- Developers of Bambiraptor. Some of the code was structured after bambiraptor. 
+- Sandfly Security. Some of the triage searches follow the Sandfly fast triage methodology 
     
