@@ -31,3 +31,7 @@ Acknowledgments:
 - Developers of Bambiraptor. Some of the code was structured after bambiraptor. 
 - Sandfly Security. Some of the triage searches follow the Sandfly fast triage methodology 
     
+    
+UPDATES: 07-SEP-2020
+Version 2.1 - Bug fixes + setup command from Modules file combined into main script
+
