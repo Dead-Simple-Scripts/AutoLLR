@@ -36,13 +36,13 @@ Version 2.1 Updates - Bug fixes + setup command from Modules file combined into 
 
 
 Version 2.2 UPDATES: Fileless Linux Attack Detection
-Dervived from Sandfly Security research: hxxps://www.sandflysecurity.com/blog/detecting-linux-memfd_create-fileless-malware-with-command-line-forensics/
+Dervived from Sandfly Security research: https://www.sandflysecurity.com/blog/detecting-linux-memfd_create-fileless-malware-with-command-line-forensics/
 
 Processes with memfd executable
-Search logic: Any findings are suspicious
-Results: memfd_create_attack.txt
-Example results:
-lrwxrwxrwx 1 root root 0 Sep  1 20:00 /proc/14677/exe -> /memfd: (deleted)
+- Search logic: Any findings are suspicious
+- Results: memfd_create_attack.txt
+- Example results:
+- lrwxrwxrwx 1 root root 0 Sep  1 20:00 /proc/14677/exe -> /memfd: (deleted)
 
 
 Process cwd and exe agreement
