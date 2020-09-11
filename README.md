@@ -38,10 +38,10 @@ Version 2.1 Updates - Bug fixes + setup command from Modules file combined into 
 Version 2.2 Updates: Fileless Linux attack detection
 Dervived from Sandfly Security research: https://www.sandflysecurity.com/blog/detecting-linux-memfd_create-fileless-malware-with-command-line-forensics/
 - Processes with memfd executable
-- Process cwd and exe agreement
+- Process COMM and CMDLINE agreement
 - Process CWD and EXE check
-- Process map details with memfd references
-- Process environ ssh details
+- Process MAP details with memfd references
+- Process ENVIRON ssh details
 
 
 
