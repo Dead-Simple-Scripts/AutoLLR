@@ -44,4 +44,11 @@ Dervived from Sandfly Security research: https://www.sandflysecurity.com/blog/de
 - Process ENVIRON ssh details
 
 
+Version 2.3 Updates:
+Dervived from Sandfly Security research: https://www.sandflysecurity.com/blog/detecting-linux-kernel-process-masquerading-with-command-line-forensics/#more-2777
+- Kernel Thread Masquerading – detects via the process environment ‘maps’ artifact.
+- Kernel Thread Masquerading – detects via the process environment ‘exe’ artifact.
+- SHA1 of all running processes. To generate a list for OSINT hash checks. 
+
+
 
