@@ -51,4 +51,7 @@ Dervived from Sandfly Security research: https://www.sandflysecurity.com/blog/de
 - SHA1 of all running processes. To generate a list for OSINT hash checks. 
 
 
-
+Version 2.4 Updates:
+- Replaced SHA1 hashing with SHA256.
+- Bug fixes
+- Extracts all binaries from memory and saves them as <PID>.recovered. If suspected malware is running on the system, this step automatically retreives a copy for binary analysis.
