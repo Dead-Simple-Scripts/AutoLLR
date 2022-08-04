@@ -54,4 +54,4 @@ Dervived from Sandfly Security research: https://www.sandflysecurity.com/blog/de
 Version 2.4 Updates:
 - Replaced SHA1 hashing with SHA256.
 - Bug fixes
-- Extracts all binaries from memory and saves them as <PID>.recovered. If suspected malware is running on the system, this step automatically retreives a copy for binary analysis.
+- Extracts all binaries from memory and saves them as PID_number.recovered. If suspected malware is running on the system, this step automatically retreives a copy for binary analysis.
